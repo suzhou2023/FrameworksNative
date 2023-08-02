@@ -4,9 +4,7 @@ project("gui")
 
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include")
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/../nativewindow/include")
-include_directories("${CMAKE_CURRENT_SOURCE_DIR}/../binder/include")
-include_directories("${CMAKE_CURRENT_SOURCE_DIR}/../binder/ndk/include_ndk")
-include_directories("${CMAKE_CURRENT_SOURCE_DIR}/../binder/ndk/include_platform")
+
 
 
 file(GLOB_RECURSE SOURCE_FILES "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp")
