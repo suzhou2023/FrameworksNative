@@ -3,9 +3,7 @@ cmake_minimum_required(VERSION 3.22.1)
 project("nativewindow")
 
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include")
-include_directories("${CMAKE_CURRENT_SOURCE_DIR}/../binder/include")
-include_directories("${CMAKE_CURRENT_SOURCE_DIR}/../binder/ndk/include_ndk")
-include_directories("${CMAKE_CURRENT_SOURCE_DIR}/../binder/ndk/include_platform")
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include-private")
 
 
 file(GLOB_RECURSE SOURCE_FILES "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp")

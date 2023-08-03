@@ -4,7 +4,9 @@ project("nativesrc")
 
 
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/libhardware/include_all")
-include_directories("${CMAKE_CURRENT_SOURCE_DIR}/system/core/include")
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/system/core/libcutils/include")
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/system/core/libutils/include")
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/system/core/libsystem/include")
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/system/libbase/include")
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/system/logging/liblog/include")
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/libs/binder/include")
